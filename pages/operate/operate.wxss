@@ -1,0 +1,98 @@
+.page {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background: #12151e;
+}
+.imageView {
+  height: 100vh;
+  width: 100vw;
+}
+.operate-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  overflow: hidden;
+}
+.colorInfo {
+  top: 35vw;
+  left: 50%;
+  height: 28vw;
+  width: 28vw;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  color: #fff;
+  z-index: 9999;
+}
+.img-light {
+  height: 55%;
+  width: 55%;
+}
+.black-bg {
+  color: rgba(255, 255, 255, .5);
+  border: 3px solid rgba(255, 255, 255, .3);
+	background: rgba(0, 0, 0, .1) !important;
+	box-shadow: none !important;
+}
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 70vw;
+  width: 70vw;
+  transform: translateX(-50%);
+  background: transparent;
+  z-index: 2;
+}
+.opacity0 {
+  opacity: 0;
+}
+.slider-wrapper {
+  position: absolute;
+  top: 62vw;
+  width: 100%;
+  padding: 20rpx 30rpx;
+  box-sizing: border-box;
+  margin-top: 9vh;
+}
+.slider-item {
+  color: #fff;
+  font-size: 28rpx;
+  padding: 20rpx 0;
+}
+.slider-label {
+  padding: 0 40rpx;
+  box-sizing: border-box;
+}
+.label {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.control-wrapper {
+  position: absolute;
+  bottom: 30rpx;
+  width: 100%;
+  color: #8c92a5;
+  transition: all .3s linear;
+  font-size: 30rpx;
+}
+.control-wrapper .iconfont {
+  font-size: 40rpx;
+  width: 70rpx;
+  height: 70rpx;
+  text-align: center;
+  line-height: 70rpx;
+  border: 1px solid #8c92a5;
+  border-radius: 100%;
+  margin-bottom: 10rpx;
+  transition: all .3s linear;
+}
+.active .iconfont {
+  border-color: #fff;
+}
+.active {
+  color: #fff;
+}

@@ -1,0 +1,23 @@
+<view class="container">
+  <view class='header-wrapper flex flex-jcc flex-ac'>
+    <text class="iconfont icon-peiwang"></text>
+  </view>
+  <view class='content-wrapper'>
+    <view class="item flex">
+      <label>SSID:</label><text>{{wifiInfo.SSID}}</text>
+    </view>
+    <view class="item flex">
+      <label>BSSID:</label><text>{{wifiInfo.BSSID}}</text>
+    </view>
+    <view class="item flex pwd-wrap">
+      <label>Password:</label>
+      <input class="felx-1" placeholder="请输入WI-FI密码" placeholder-class="placeholder-color" bindinput="bindPasswordInput" ></input>
+    </view>
+    <button class="btn" bindtap="gotoProvision">
+      开始
+    </button>
+  </view>
+</view>
+
+
+

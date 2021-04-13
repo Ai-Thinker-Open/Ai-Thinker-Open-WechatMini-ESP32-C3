@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='header-wrapper flex flex-jcc flex-ac'>
+    <image class="header-image" src="../../images/AI-Thinker.png"></image>
+  </view>
+  <view class='content-wrapper'>
+    <view class="title">安信可开源团队</view>
+    <view class="btn-info">
+      <view bindtap="bindViewBlue" class="select-way flex-1 flex flex-v flex-jcc flex-ac">
+        <text class="btn-icon iconfont icon-peiwang"></text>
+        <text class="name">蓝牙快速配网</text>
+      </view>
+      <view bindtap="bindViewWifi" class="select-way flex-1 flex flex-v flex-jcc flex-ac">
+        <text class="btn-icon iconfont icon-kongzhi"></text>
+        <text class="name">蓝牙本地控制</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,22 @@
+<view class="page">
+
+    <view class="color-picker-view">
+        <canvas id="colorPicker" style="width: {{raduis}}rpx;height: {{raduis}}rpx;" canvas-id="colorPicker"
+            class="color-picker" />
+        <canvas canvas-id="colorPickerSlider" class="color-picker-slider"
+            style="width: {{raduis}}rpx;height: {{raduis}}rpx;z-index:1;background:rgba(255,255,255,0);"
+            bindtouchstart="onSlide" bindtouchmove="onSlide" bindtouchend="onSlide" />
+    </view>
+
+    <van-cell-group>
+        <van-cell title="当前控制方式" value="{{ currentControlWays}}" label="支持WiFi和蓝牙双控制" border="{{ false }}" />
+        <van-cell title="蓝牙/Wi-Fi方式控制切换：">
+            <van-switch size="24px" checked="{{ isCheckOutControl }}" bind:change="onChangeCheckOutControl" />
+        </van-cell>
+    </van-cell-group>
+
+    <view class="weui-footer weui-footer_fixed-bottom">
+        <view class="weui-footer__text">Copyright ©安信可开源团队 半颗心脏</view>
+    </view>
+
+</view>

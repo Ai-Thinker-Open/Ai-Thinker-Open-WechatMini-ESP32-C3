@@ -1,0 +1,34 @@
+.item {
+  height: 90rpx;
+  line-height: 90rpx;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 30rpx;
+  padding: 0 10rpx;
+  color: #b9b9b9;
+  box-sizing: border-box
+}
+label {
+  flex: 0 0 190rpx;
+}
+input {
+  flex: 1;
+  display: inline-block;
+  height: 100%;
+  border-radius: 10rpx;
+  color: #b9b9b9;
+}
+.placeholder-color {
+  color: #b9b9b9;
+}
+.btn  {
+  margin-top: 80rpx;
+}
+.icon-peiwang {
+  position: relative;
+  top: -7.5vh;
+  font-size: 120px;
+  padding: 30px;
+  color: #fff;
+  border: 6rpx solid #fff;
+  border-radius: 100%;
+}

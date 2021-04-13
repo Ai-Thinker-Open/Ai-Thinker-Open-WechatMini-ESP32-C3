@@ -1,0 +1,25 @@
+<view class="page">
+  <image class="imageView" lazy-load="true" src='../../images/bg.png'></image>
+  <view class="operate-wrapper">
+    <view class="canvasWrap">
+      <canvas bindtouchstart="getColor" class="canvas" canvas-id="firstCanvas"></canvas>
+    </view>
+   <cover-view  class="colorInfo flex flex-jcc flex-ac" style="background: {{color}}; position: {{platform == 'ios' ? 'fixed' : 'absolute'}}">
+        <cover-image class="img-light" src="../../images/img-light.png"></cover-image>
+    </cover-view>
+    <view  class="slider-wrapper">
+      <view class="slider-item">
+        <view class="slider-label flex flex-jcb">
+          <text class="label">亮度</text><text>{{currentLuminanceText}}%</text>
+        </view>
+        <slider bindchange="editDeviceL" bindchanging="changeDeviceL"  value="{{currentLuminance}}" min="0" activeColor="#fff" backgroundColor="#394a62" block-size="25" max="100"/>
+      </view>
+      <view class="slider-item">
+        <view class="slider-label flex flex-jcb">
+          <text class="label">饱和度</text><text>{{currentSaturationText}}%</text>
+        </view>
+        <slider bindchange="editDeviceS" bindchanging="changeDeviceS"  value="{{currentSaturation}}" min="0" activeColor="#fff" backgroundColor="#394a62" block-size="25" max="100"/>
+      </view>
+    </view>
+  </view>
+</view>

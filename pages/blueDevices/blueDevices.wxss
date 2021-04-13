@@ -1,0 +1,42 @@
+/* pages/blueDevices/blueDevices.wxss */
+.prompt-title {
+  height: 50rpx;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  width: 100%;
+}
+.item {
+  display: flex;
+  height: 130rpx;
+  width: 100%;
+  padding: 30rpx;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  box-sizing: border-box;
+}
+.item-img {
+  flex: 0 0 90rpx;
+  height: 90rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background: #f6f6f6;
+  box-shadow: 0 0 10px #f6f6f6;
+}
+.icon-deng {
+  font-size: 50rpx;
+  color: #e8352c;
+}
+.item-name {
+  flex: 1;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 32rpx;
+}
+.text-rssi {
+  font-size: 28rpx;
+  color: #999;
+}

@@ -1,0 +1,24 @@
+.color-picker-view {
+  padding-top: 40rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+
+.color-picker-slider {
+  position: absolute;
+  background-color: #fff;
+}
+
+
+.van-cell-group {
+  margin-top: 40rpx;
+}
+
+.footer{
+  background: rgb(8, 117, 94);
+  color: #fff;
+  line-height: 100rpx;
+  flex: 0 0 100rpx; /* 不放大不缩小固定100rpx */
+}

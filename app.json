@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/operate/operate",
+    "pages/blueDevices/blueDevices",
+    "pages/blueWifi/blueWifi",
+    "pages/blueConnect/blueConnect"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#136dc9",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "安信可开源DIY小程序"
+  },
+  "sitemapLocation": "sitemap.json"
+}

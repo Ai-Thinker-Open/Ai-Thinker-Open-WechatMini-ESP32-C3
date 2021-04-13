@@ -1,0 +1,64 @@
+@import "/fonts/font.wxss";
+@import "weui.wxss";
+.container {
+  height: 100vh;
+  background: #f6f6f6;
+  font-size: 32rpx;
+}
+/* flex布局 */
+.flex {
+  display: flex;
+}
+/* flex布局-水平居中 */
+.flex-jcc {
+  justify-content: center;
+}
+/* flex布局-垂直居中 */
+.flex-ac {
+  align-items: center;
+}
+/* flex布局-水平两端显示 */
+.flex-jcb {
+  justify-content: space-between;
+}
+.flex-v {
+  flex-direction: column;
+}
+.flex-1 {
+  flex: 1;
+}
+.header-wrapper {
+  height: 55vh;
+  width: 100%;
+  background: #ffffff;
+  border-bottom-right-radius: 80rpx;
+  border-bottom-left-radius: 80rpx;
+}
+.header-image {
+  width: 29vh;
+  height: 29vh;
+  position: relative;
+  top: -7.5vh;
+}
+.content-wrapper {
+  position: absolute;
+  top: 43vh;
+  left: 30rpx;
+  min-height: 50vh;
+  width: calc(100% - 60rpx);
+  padding: 60rpx 40rpx;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6rpx #fff;
+  color: #818181;
+}
+.btn {
+  width: 100%;
+  font-size: 28rpx;
+  padding: 8rpx 0;
+  background: #e8352c;
+  border: 1px solid #e8352c;
+  color: #fff;
+  border-radius: 100rpx;
+}
